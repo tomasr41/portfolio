@@ -57,9 +57,8 @@ export default function ExperienceSection() {
                       whileInView={{ opacity: 1, x: 0 }}
                       transition={{ duration: 0.3, delay: 0.1 * i }}
                       viewport={{ once: true }}
-                    >
-                      {achievement}
-                    </motion.li>
+                      dangerouslySetInnerHTML={{ __html: achievement }}
+                    />
                   ))}
                 </ul> 
               </motion.div>

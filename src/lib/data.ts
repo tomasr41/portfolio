@@ -26,6 +26,19 @@ export const workExperience = [
       "Entregué una solución completa y funcional en producción",
     ],
   },
+  {
+    company: "Inmobiliaria Rowan",
+    location: "Chacabuco, Buenos Aires, Argentina",
+    position: "Desarrollador de Sistemas",
+    period: "Febrero 2025 - Mayo 2025",
+    achievements: [
+      "Trabajé como Analista de Sistemas para Inmobiliaria Rowan (<a href='https://rowanpropiedades.ar/' target='_blank' rel='noopener noreferrer' style='color: #3b82f6; text-decoration: underline;'>https://rowanpropiedades.ar/</a>), brindando soluciones tecnológicas adaptadas a las necesidades locales del negocio.",
+      "Implementé un servidor en la nube utilizando Google Cloud Platform para gestionar archivos, usuarios e información sensible de forma centralizada y segura.",
+      "Diseñé procedimientos básicos de respaldo automático y configuré acceso remoto seguro para el equipo administrativo.",
+      "Configuré e instalé terminales de trabajo, mejorando el entorno operativo y reduciendo tiempos de carga en las estaciones de trabajo.",
+      "Digitalicé parte del flujo de trabajo tradicional de la inmobiliaria, optimizando procesos internos y reduciendo el uso de papel."
+    ],
+  },
 
 ];
 
