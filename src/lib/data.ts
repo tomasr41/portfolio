@@ -14,22 +14,23 @@ export const workExperience = [
   {
     company: "Bomberos de Junin",
     location: "Junin, Buenos Aires, Argentina",
-    position: "Analista y Desarrollador Full Stack",
+    position: "Analista Funcional y Desarrollador Full Stack",
     period: "Agosto 2024 - Diciembre 2024",
     achievements: [
-      "Desarrollé de forma freelance una aplicación móvil y plataforma web para los Bomberos de Junín, utilizada actualmente en situaciones reales de emergencia.",
-      "Implementé la lógica de negocio del backend utilizando Spring Boot en Java, asegurando una estructura robusta y escalable.",
-      "Construí una plataforma web con React que permite a los administradores cargar y gestionar manuales de rescate de vehículos.",
-      "Facilité el acceso rápido a información crítica mediante una app móvil que permite a los bomberos consultar manuales en situaciones de alta presión.",
-      "Aseguré la integración fluida entre frontend y backend, optimizando la experiencia de usuario y el rendimiento general de la aplicación.",
-      "Colaboré estrechamente con el cuerpo de bomberos para entender sus necesidades operativas y adaptar la solución tecnológica a un caso de uso real.",
-      "Entregué una solución completa y funcional en producción",
-    ],
+      "Desarrollamos de forma freelance una aplicación móvil y plataforma web para los Bomberos de Junín junto a compañeros de la universidad.",
+      "Implementamos la lógica de negocio del backend utilizando Spring Boot en Java, asegurando una estructura robusta y escalable.",
+      "Construimos una plataforma web con React que permite a los administradores cargar y gestionar manuales de rescate de vehículos.",
+      "Facilitamos el acceso rápido a información crítica mediante una app móvil que permite a los bomberos consultar manuales en situaciones de alta presión.",
+      "Aseguramos la integración fluida entre frontend y backend, optimizando la experiencia de usuario y el rendimiento general de la aplicación.",
+      "Colaboramos estrechamente con el cuerpo de bomberos para entender sus necesidades operativas y adaptar la solución tecnológica a un caso de uso real.",
+      "Entregamos una solución completa y funcional en producción."
+    ]
+    
   },
   {
     company: "Inmobiliaria Rowan",
     location: "Chacabuco, Buenos Aires, Argentina",
-    position: "Desarrollador de Sistemas",
+    position: "Analista y Desarrollador de Sistemas",
     period: "Febrero 2025 - Mayo 2025",
     achievements: [
       "Trabajé como Analista de Sistemas para Inmobiliaria Rowan (<a href='https://rowanpropiedades.ar/' target='_blank' rel='noopener noreferrer' style='color: #3b82f6; text-decoration: underline;'>https://rowanpropiedades.ar/</a>), brindando soluciones tecnológicas adaptadas a las necesidades locales del negocio.",
