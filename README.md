@@ -1,186 +1,101 @@
-# Plantilla de Portafolio Moderno
+# Mi Portafolio Personal
 
-Un sitio web de portafolio elegante y responsivo construido con **Astro**, **React** y **Tailwind CSS**, con animaciones modernas y efectos de glassmorfismo impresionantes.
+Un portafolio web moderno y elegante que muestra mi experiencia, proyectos y habilidades como desarrollador. Construido con tecnologías modernas para ofrecer una experiencia de usuario excepcional.
 
-![Captura de Pantalla del Portafolio](https://github.com/user-attachments/assets/4f2466f1-1ebe-4cbe-857c-40eccd63c384)
+## 🎯 Sobre Mí
 
-## ✨ Características
+Soy un desarrollador apasionado por crear soluciones digitales innovadoras. Este portafolio refleja mi enfoque en el diseño centrado en el usuario y la implementación de tecnologías web modernas.
 
-- **Diseño Moderno** – Diseño limpio y profesional con glassmorfismo elegante
-- **Animaciones** – Transiciones suaves e interfaz interactiva vía Framer Motion
-- **Modo Oscuro/Claro** – Cambio automático de tema con detección de preferencias del sistema
-- **Totalmente Responsivo** – Optimizado para móvil, tablet y escritorio
-- **Ultra Rápido** – Impulsado por Astro para rendimiento superior
-- **Estructura Modular** – Construido para fácil personalización y escalabilidad
-- **SEO Amigable** – Contenido estructurado y meta tags para mejor visibilidad
+## ✨ Características del Portafolio
 
-## 🚀 Demo
+- **Diseño Glassmorfismo** – Efectos visuales modernos con transparencias y desenfoques
+- **Animaciones Fluidas** – Transiciones suaves y micro-interacciones con Framer Motion
+- **Tema Adaptativo** – Modo oscuro/claro que se adapta a las preferencias del sistema
+- **Diseño Responsivo** – Experiencia optimizada en todos los dispositivos
+- **Rendimiento Optimizado** – Construido con Astro para tiempos de carga ultrarrápidos
+- **Accesibilidad** – Navegación intuitiva y compatibilidad con lectores de pantalla
 
-👉 [Demo en Vivo](https://rishilol.vercel.app/)
+## 🛠️ Tecnologías Utilizadas
 
-## 🛠 Comenzando
+- **Astro** – Framework para sitios web estáticos
+- **React** – Componentes interactivos
+- **TypeScript** – Tipado estático para mayor robustez
+- **Tailwind CSS** – Estilos utilitarios y diseño responsivo
+- **Framer Motion** – Animaciones y transiciones
+- **Lucide Icons** – Iconografía moderna
 
-### Prerrequisitos
+## 🚀 Proyectos Destacados
 
-- Node.js (v18+ recomendado)
-- npm / yarn / bun
+### Carrito de Compras
+Una aplicación web completa que permite a los usuarios gestionar productos en un carrito de compras. Desarrollada con HTML, CSS y JavaScript vanilla, incluye gestión de stock, totales dinámicos y persistencia de datos con LocalStorage.
 
-### Instalación
+### [Otros proyectos en desarrollo...]
+
+## 📊 Habilidades Técnicas
+
+- **Lenguajes de Programación**: JavaScript, TypeScript, Python
+- **Frontend**: React, Next.js, HTML5, CSS3
+- **Backend**: Node.js, Express
+- **Bases de Datos**: MongoDB, PostgreSQL
+- **Herramientas**: Git, Docker, AWS
+- **Diseño**: Figma, Adobe Creative Suite
+
+## 📈 Experiencia
+
+Con experiencia en desarrollo web full-stack, me especializo en crear aplicaciones escalables y mantenibles. Mi enfoque combina soluciones técnicas sólidas con una atención meticulosa a la experiencia del usuario.
+
+## 🌟 Lo Que Me Define
+
+- **Resolución de Problemas** – Enfoque analítico para encontrar soluciones creativas
+- **Aprendizaje Continuo** – Siempre explorando nuevas tecnologías y metodologías
+- **Trabajo en Equipo** – Comunicación efectiva y colaboración productiva
+- **Calidad del Código** – Código limpio, bien documentado y mantenible
+
+## 📞 Contacto
+
+¡Me encantaría conectar contigo! Si tienes un proyecto interesante o quieres colaborar, no dudes en contactarme:
+
+- **Email**: [tu-email@ejemplo.com]
+- **GitHub**: [tu-usuario]
+- **LinkedIn**: [tu-perfil-linkedin]
+
+## 🎨 Personalización
+
+Este portafolio está diseñado para ser completamente personalizable. Todos los datos se encuentran en `src/lib/data.ts`, donde puedes actualizar:
+
+- Información personal y de contacto
+- Experiencia laboral y educación
+- Proyectos y enlaces
+- Habilidades técnicas
+- Premios y reconocimientos
+
+## 🚀 Desarrollo Local
 
 ```bash
-git clone https://github.com/yourusername/my-portfolio.git
-cd my-portfolio
+# Clonar el repositorio
+git clone [tu-repositorio]
+cd portfolio
 
 # Instalar dependencias
 npm install
-# o
-yarn install
-# o
-bun install
 
 # Iniciar servidor de desarrollo
 npm run dev
-# o
-yarn dev
-# o
-bun dev
 ```
 
-Visita `http://localhost:4321` en tu navegador para verlo en acción.
+Visita `http://localhost:4321` para ver el portafolio en acción.
 
-## 🧩 Personalizando el Portafolio
-
-Todo tu contenido vive dentro de `src/lib/data.ts`. Actualiza lo siguiente para hacerlo tuyo:
-
-### 1. Información Personal
-
-```ts
-export const personalInfo = {
-  name: "Tu Nombre",
-  location: "Tu Ubicación",
-  email: "tu.email@ejemplo.com",
-  github: "https://github.com/tuusuario",
-  linkedin: "https://www.linkedin.com/in/tuusuario/",
-};
-```
-
-### 2. Experiencia Laboral
-
-```ts
-export const workExperience = [
-  {
-    company: "Nombre de la Empresa",
-    location: "Ubicación",
-    position: "Tu Posición",
-    period: "Fecha de Inicio - Fecha de Fin",
-    achievements: [
-      "Logro 1",
-      "Logro 2",
-    ],
-  },
-];
-```
-
-### 3. Educación
-
-```ts
-export const education = [
-  {
-    institution: "Nombre de la Universidad",
-    location: "Ubicación",
-    degree: "Tu Título",
-    period: "Fecha de Inicio - Fecha de Fin",
-    achievements: [
-      "Logro 1",
-      "Logro 2",
-    ],
-  },
-];
-```
-
-### 4. Habilidades
-
-```ts
-export const skills = {
-  programmingLanguages: ["TypeScript", "Python"],
-  frontendDevelopment: ["React", "Next.js"],
-  // y más...
-};
-```
-
-### 5. Proyectos
-
-```ts
-export const projects = [
-  {
-    title: "Nombre del Proyecto",
-    github: "https://github.com/tuusuario/proyecto",
-    description: [
-      "Qué hace",
-      "Tecnologías utilizadas",
-    ],
-  },
-];
-```
-
-### 6. Premios
-
-```ts
-export const awards = [
-  {
-    name: "Nombre del Premio",
-    issuer: "Emisor",
-    date: "Fecha",
-    type: "Tipo",
-    position: "Posición",
-  },
-];
-```
-
-## 📦 Construir para Producción
+## 📦 Construcción para Producción
 
 ```bash
 npm run build
-# o
-yarn build
-# o
-bun run build
-```
-
-Para previsualizar la construcción de producción localmente:
-
-```bash
 npm run preview
-# o
-yarn preview
 ```
 
-## 📤 Despliegue
+## 📄 Licencia
 
-Despliega fácilmente en plataformas como **Vercel**, **Netlify**, **GitHub Pages**, o cualquier host estático de tu elección.
-
-## 📝 Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
-
-## ©️ Copyright
-
-© 2025 **Rishikesh S.** Todos los derechos reservados.
-
-Eres bienvenido a usar esta plantilla para tu propio portafolio — solo actualiza `data.ts` y ajusta el diseño según sea necesario. Por favor mantén la atribución al autor original.
+Este proyecto es de uso personal. Siéntete libre de inspirarte en el código, pero por favor respeta la autoría original.
 
 ---
 
-## 🌟 ¿Te gustó?
-
-Si encontraste esto útil o inspirador, **por favor considera dejar una estrella** ⭐ en el repositorio — ¡ayuda a otros a descubrirlo también!
-
----
-
-## 🙏 Agradecimientos
-
-- [Astro](https://astro.build/)
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Lucide Icons](https://lucide.dev/)
+*Construido con ❤️ y mucho café ☕*
