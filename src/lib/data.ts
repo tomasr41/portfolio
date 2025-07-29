@@ -59,7 +59,7 @@ export const skills = {
   ],
   frontendDevelopment: [
     "Reactjs",
-     "VUE.js",
+    "Vue.js",
     "Tailwind CSS",
     "HTML",
     "CSS",
@@ -68,7 +68,7 @@ export const skills = {
   databaseAndStorage: ["PostgreSQL"],
   cloudAndDevOps: ["AWS","Azure","Docker","Kubernetes"],
   toolsAndServices: [
-"Cursor","Git","Vercelm","Github Pages",
+"Cursor","Git","Vercel","Github Pages",
   ],
 };
 
@@ -77,14 +77,11 @@ export const projects = [
     title: "Bomberos de Junin",
     github: "https://github.com/UnnobaBomberos",
     description: [
-  "Aplicación para Emergencias: Desarrollé una app móvil y plataforma web utilizada en situaciones reales por los Bomberos de Junín.",
-  "Backend Robusto: Implementé la lógica de negocio con Spring Boot en Java, garantizando escalabilidad y estabilidad.",
-  "Gestión de Contenido Crítico: Construí un panel web en React para administrar manuales de rescate vehicular.",
-  "Acceso Móvil Instantáneo: Diseñé una app que permite a bomberos consultar información vital bajo presión.",
-  "Integración Eficiente: Aseguré comunicación fluida entre frontend y backend, optimizando rendimiento y UX.",
-  "Trabajo en Terreno: Colaboré directamente con el cuerpo de bomberos para adaptar la solución a necesidades reales.",
-  "Despliegue en Producción: Entregué una solución completa, funcional y actualmente en uso operativo."
-    ],
+      "Aplicación móvil y plataforma web diseñadas para que los Bomberos de Junín puedan acceder rápidamente a planos de seguridad de vehículos en situaciones críticas.",
+      "La app permite consultar detalles esenciales como la ubicación de baterías, tanques de combustible y componentes clave, facilitando intervenciones más seguras y eficientes.",
+      "Pensada para tablets y smartphones, la aplicación garantiza disponibilidad de datos críticos en terreno, incluso bajo presión y condiciones adversas.",
+      "Cuenta con una plataforma web local  complementaria e intuitiva que permite a los administradores gestionar y actualizar manuales de rescate con facilidad y rapidez.",
+      ],
   },
   {
     title: "StarType Game (clon de MonkeyType)",
@@ -107,7 +104,7 @@ export const projects = [
       "Desarrollado con HTML, CSS y JavaScript puro (vanilla JS), sin frameworks ni librerías externas.",
       "Implementa lógica para manejo de stock, totales dinámicos, y persistencia de datos usando LocalStorage.",
       "Cuenta con una interfaz intuitiva, con animaciones básicas y diseño responsive adaptable a dispositivos móviles.",
-      "Proyecto base para entender el funcionamiento de un flujo de compra en aplicaciones e-commerce."
+      "Proyecto basico para entender el funcionamiento de un flujo de compra en aplicaciones e-commerce."
     ]
   }
   
