@@ -23,7 +23,7 @@ export const workExperience = [
       "Facilitamos el acceso rápido a información crítica mediante una app móvil que permite a los bomberos consultar manuales en situaciones de alta presión.",
       "Aseguramos la integración fluida entre frontend y backend, optimizando la experiencia de usuario y el rendimiento general de la aplicación.",
       "Colaboramos estrechamente con el cuerpo de bomberos para entender sus necesidades operativas y adaptar la solución tecnológica a un caso de uso real.",
-      "Entregamos una solución completa y funcional en producción."
+      "Entregamos una solución completa y funcional."
     ]
     
   },
