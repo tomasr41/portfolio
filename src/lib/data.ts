@@ -4,10 +4,7 @@ export const personalInfo = {
   email: "tomasrowan41@gmail.com",
   github: "https://github.com/tomasr41",
   linkedin: "https://www.linkedin.com/in/tom%C3%A1s-rowan/",
-  description: `🚀 Soy desarrollador de software y estudiante de la Licenciatura en Sistemas (3er año) en la UNNOBA, pronto a recibir el título de Analista de Sistemas. 
-  Me gusta crear soluciones prácticas que resuelvan problemas reales. 
-  Desarrollé de forma freelance una aplicación para los Bomberos de Junín, participando en todo el proceso: desde hablar con el cliente y definir los requisitos, hasta programar el backend en Spring Boot y la web en React.
-  Me adapto rápido a nuevas tecnologías y disfruto tanto de trabajar solo como en equipo, siempre buscando aprender y mejorar.`
+  description: `🚀 Soy desarrollador de software y estudiante de la Licenciatura en Sistemas en la UNNOBA, próximo a recibirme como Analista de Sistemas. Me interesa crear soluciones prácticas que resuelvan problemas reales. Soy autodidacta y estoy en constante aprendizaje, desarrollando proyectos personales y académicos para aplicar y consolidar mis conocimientos.`
 };
 
 export const workExperience = [
@@ -15,9 +12,9 @@ export const workExperience = [
     company: "Bomberos de Junin",
     location: "Junin, Buenos Aires, Argentina",
     position: "Analista Funcional y Desarrollador Full Stack",
-    period: "Agosto 2024 - Diciembre 2024",
+    period: "Agosto 2024 - Febrero 2025",
     achievements: [
-      "Desarrollamos de forma freelance una aplicación móvil y plataforma web para los Bomberos de Junín junto a compañeros de la universidad.",
+      "Desarrollamos una aplicación móvil y plataforma web para los Bomberos de Junín junto a compañeros de la universidad.",
       "Implementamos la lógica de negocio del backend utilizando Spring Boot en Java, asegurando una estructura robusta y escalable.",
       "Construimos una plataforma web con React que permite a los administradores cargar y gestionar manuales de rescate de vehículos.",
       "Facilitamos el acceso rápido a información crítica mediante una app móvil que permite a los bomberos consultar manuales en situaciones de alta presión.",
@@ -34,10 +31,9 @@ export const workExperience = [
     period: "Febrero 2025 - Mayo 2025",
     achievements: [
       "Trabajé como Analista de Sistemas para Inmobiliaria Rowan (<a href='https://rowanpropiedades.ar/' target='_blank' rel='noopener noreferrer' style='color: #3b82f6; text-decoration: underline;'>https://rowanpropiedades.ar/</a>), brindando soluciones tecnológicas adaptadas a las necesidades locales del negocio.",
-      "Implementé un servidor en la nube utilizando Google Cloud Platform para gestionar archivos, usuarios e información sensible de forma centralizada y segura.",
-      "Diseñé procedimientos básicos de respaldo automático y configuré acceso remoto seguro para el equipo administrativo.",
+"Diseñé procedimientos básicos de respaldo automático y configuré acceso remoto seguro para el equipo administrativo.",
       "Configuré e instalé terminales de trabajo, mejorando el entorno operativo y reduciendo tiempos de carga en las estaciones de trabajo.",
-      "Digitalicé parte del flujo de trabajo tradicional de la inmobiliaria, optimizando procesos internos y reduciendo el uso de papel."
+      "Digitalicé parte del flujo de trabajo tradicional de la inmobiliaria, optimizando procesos internos y capacitando al personal en el uso de las nuevas tecnologias basadas en la nube."
     ],
   },
 
@@ -48,7 +44,7 @@ export const education = [
     institution: "Universidad Nacional del Noroeste de la Provincia de Buenos Aires",
     location: "Pergamino, Buenos Aires, Argentina",
     degree: "Licenciatura en Sistemas",
-    period: "Mar 2021 - Actualidad",
+    period: "Mar 2020 - Actualidad",
   },
 ];
 export const skills = {
@@ -111,54 +107,3 @@ export const projects = [
 
 ];
 
-export const awards = [
-  {
-    name: "Hackathon IEEE YESIST12",
-    issuer: "IEEE",
-    date: "Sep 2022",
-    type: "Internacional",
-    position: "Segundo Lugar",
-  },
-  {
-    name: "Hackathon Prodigi Cognizant",
-    issuer: "Cognizant",
-    date: "Feb 2023",
-    type: "Nacional",
-    position: "Tercer Lugar",
-  },
-  {
-    name: "Hackathon Cisco Thingqbator",
-    issuer: "Cisco",
-    date: "Ene 2023",
-    type: "Nacional",
-    position: "Segundo Lugar",
-  },
-  {
-    name: "Día de Innovadores",
-    issuer: "Universidad Sri Manakula Vinayagar, Pondicherry",
-    date: "Sep 2022",
-    type: "Nacional",
-    position: "Primer Premio",
-  },
-  {
-    name: "KG Hackfest'22",
-    issuer: "Instituto Tecnológico KGiSL, Coimbatore",
-    date: "Sep 2022",
-    type: "Nacional",
-    position: "Segundo Premio",
-  },
-  {
-    name: "Innohacks'22",
-    issuer: "Innogeeks, Grupo de Instituciones KIET, Nueva Delhi",
-    date: "May 2022",
-    type: "Nacional",
-    position: "Tercer Lugar",
-  },
-  {
-    name: "Hack @ SKCET",
-    issuer: "Hackclub SKCET, SKCET, Coimbatore",
-    date: "Feb 2022",
-    type: "Nacional",
-    position: "Hack Más Impactante",
-  },
-];
