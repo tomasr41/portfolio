@@ -25,12 +25,12 @@ export const workExperience = [
     
   },
   {
-    company: "Inmobiliaria Rowan",
+    company: "Rowan Propiedades",
     location: "Chacabuco, Buenos Aires, Argentina",
-    position: "Analista y Desarrollador de Sistemas",
+    position: "Soporte Tecnico",
     period: "Febrero 2025 - Mayo 2025",
     achievements: [
-      "Trabajé como Analista de Sistemas para Inmobiliaria Rowan (<a href='https://rowanpropiedades.ar/' target='_blank' rel='noopener noreferrer' style='color: #3b82f6; text-decoration: underline;'>https://rowanpropiedades.ar/</a>), brindando soluciones tecnológicas adaptadas a las necesidades locales del negocio.",
+      "Trabajé como Soporte Tecnico IT para Inmobiliaria Rowan (<a href='https://rowanpropiedades.ar/' target='_blank' rel='noopener noreferrer' style='color: #3b82f6; text-decoration: underline;'>https://rowanpropiedades.ar/</a>), brindando soluciones tecnológicas adaptadas a las necesidades locales del negocio.",
 "Diseñé procedimientos básicos de respaldo automático y configuré acceso remoto seguro para el equipo administrativo.",
       "Configuré e instalé terminales de trabajo, mejorando el entorno operativo y reduciendo tiempos de carga en las estaciones de trabajo.",
       "Digitalicé parte del flujo de trabajo tradicional de la inmobiliaria, optimizando procesos internos y capacitando al personal en el uso de las nuevas tecnologias basadas en la nube."
